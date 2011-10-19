@@ -1,0 +1,57 @@
+/* TODO add some media queries to improve the responsive nature of this page. */
+@font-face {
+font-family: 'ChunkFiveRegular';
+src: url('Chunkfive-webfont.eot');
+src: url('Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+     url('Chunkfive-webfont.woff') format('woff'),
+     url('Chunkfive-webfont.ttf') format('truetype'),
+     url('Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'EfonRegular';
+src: url('EFON-webfont.eot');
+src: url('EFON-webfont.eot?#iefix') format('embedded-opentype'),
+     url('EFON-webfont.woff') format('woff'),
+     url('EFON-webfont.ttf') format('truetype'),
+     url('EFON-webfont.svg#EfonRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'LeagueGothicRegular';
+src: url('League_Gothic-webfont.eot');
+src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('League_Gothic-webfont.woff') format('woff'),
+     url('League_Gothic-webfont.ttf') format('truetype'),
+     url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+body {max-width: 1140px; margin: 0 auto;}
+
+h1 {font-family: "ChunkFiveRegular"; font-weight: normal; font-size: 180%; margin: 1% auto; width: 50%; white-space: nowrap;}
+table {border-collapse: collapse; width: 80%; margin: 0 auto;}
+.license {width:80%; margin: 1.5em auto 0 auto; text-align: center; font-family: "Arial", sans-serif}
+td:first-child {text-align: right; font-family: "LeagueGothicRegular"; font-size: 140%; width: 25%; padding-right: 1em; border-right: 1px solid lightgrey;}
+td {font-family: "EfonRegular"; vertical-align: middle; text-align: center; font-size: 200%; line-height: 1.2;}
+.explain td {font-family: "Arial", sans-serif; border-right: none; font-size: 100%; text-align: left; padding: 1em 0; }
+th {font-family: "ChunkFiveRegular"; font-weight: normal; font-size: 120%; padding: 1%; vertical-align: bottom;}
+tbody > tr {border-top: 1px solid lightgrey;}
+.good {color: #3399ff;}
+.bad {color: #666666;}
+.ugly {color: #ff0000;}
+.hidden {display: none;}
+
+@media only screen and (max-width: 1024px) {
+  table {width: 90%}
+}
+
+@media only screen and (max-width: 480px) {
+  body {font-size: 80%;}
+  table {width: 90%}
+}
